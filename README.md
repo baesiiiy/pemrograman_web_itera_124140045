@@ -38,3 +38,17 @@ TugasJavaScript/
 ├── style.css
 ├── script.js
 ├── README.md
+
+## Tangkapan Layar
+
+### 1. Tampilan Form Input Utama
+![Form Input Utama](screenshot/form_input.jpg)
+
+### 2. Tampilan Validasi Error
+![Validasi Error](screenshot/validasi_error.jpg)
+
+### 3. Hasil Perhitungan dan Riwayat Data
+![Hasil Perhitungan](screenshot/belanja_kalkulator.jpg)
+
+### 4. Tampilan Perhitungan dan Riwayat Data
+![Hasil Perhitungan](screenshot/hasil.jpg)
