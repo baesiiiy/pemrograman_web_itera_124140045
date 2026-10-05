@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir Mini POS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kasir Mini POS</h1>
+        <p class="subtitle">Aplikasi Kasir & Keranjang Belanja Sederhana</p>
+
+        <!-- Form Tambah Barang -->
+        <section class="card">
+            <h2>Tambah Barang</h2>
+
+            <form id="formBarang">
+                <div class="form-group">
+                    <label for="namaBarang">Nama Barang</label>
+                    <input type="text" id="namaBarang" placeholder="Masukkan nama barang">
+                    <small id="errorNama" class="error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="hargaBarang">Harga</label>
+                    <input type="number" id="hargaBarang" placeholder="Contoh: 10000">
+                    <small id="errorHarga" class="error"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="qtyBarang">Qty</label>
+                    <input type="number" id="qtyBarang" min="1" value="1">
+                    <small id="errorQty" class="error"></small>
+                </div>
+
+                <button type="submit">Tambah ke Keranjang</button>
+            </form>
+        </section>
+
+        <!-- Keranjang -->
+        <section class="card">
+            <h2>Keranjang Belanja</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama Barang</th>
+                            <th>Harga</th>
+                            <th>Qty</th>
+                            <th>Subtotal</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="tabelKeranjang">
+                        <!-- Data barang akan ditampilkan melalui JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <p id="keranjangKosong" class="empty">
+                Keranjang masih kosong.
+            </p>
+        </section>
+
+        <!-- Ringkasan Pembayaran -->
+        <section class="card">
+            <h2>Ringkasan Pembayaran</h2>
+
+            <div class="summary">
+                <div>
+                    <span>Subtotal</span>
+                    <strong id="subtotal">Rp0</strong>
+                </div>
+
+                <div>
+                    <span>Diskon</span>
+                    <strong id="diskon">Rp0</strong>
+                </div>
+
+                <div class="total">
+                    <span>Total</span>
+                    <strong id="total">Rp0</strong>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="uangBayar">Uang Bayar</label>
+                <input type="number" id="uangBayar" placeholder="Masukkan uang pembayaran">
+                <small id="errorBayar" class="error"></small>
+            </div>
+
+            <div class="kembalian">
+                <span>Kembalian</span>
+                <strong id="kembalian">Rp0</strong>
+            </div>
+
+            <div class="button-group">
+                <button id="btnHitung">Hitung Pembayaran</button>
+                <button id="btnReset" class="reset">Transaksi Baru</button>
+            </div>
+
+            <p id="pesan" class="pesan"></p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

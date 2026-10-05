@@ -1,0 +1,208 @@
+/* Pengaturan dasar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+    padding: 30px;
+}
+
+/* Container utama */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+/* Pesan error */
+.error {
+    display: block;
+    color: #e74c3c;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* Tombol */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Tabel */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Tombol hapus */
+.btn-hapus {
+    background-color: #e74c3c;
+    padding: 7px 12px;
+    font-size: 13px;
+}
+
+.btn-hapus:hover {
+    background-color: #c0392b;
+}
+
+/* Keranjang kosong */
+.empty {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+}
+
+/* Ringkasan pembayaran */
+.summary {
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.summary div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.summary .total {
+    border-top: 2px solid #ddd;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Kembalian */
+.kembalian {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f8ff;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Tombol pembayaran */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.reset {
+    background-color: #7f8c8d;
+}
+
+.reset:hover {
+    background-color: #636e72;
+}
+
+/* Pesan */
+.pesan {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Tampilan HP */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
