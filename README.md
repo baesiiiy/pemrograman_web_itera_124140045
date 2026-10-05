@@ -42,13 +42,13 @@ TugasJavaScript/
 ## Tangkapan Layar
 
 ### 1. Tampilan Form Input Utama
-![Form Input Utama](screenshot_KaisrMini/form_input.jpg)
+![Form Input Utama](./screenshot_KaisrMini/form_input.jpg)
 
 ### 2. Tampilan Validasi Error
-![Validasi Error](screenshot_KaisrMini/validasi_error.jpg)
+![Validasi Error](./screenshot_KaisrMini/validasi_error.jpg)
 
 ### 3. Hasil Perhitungan dan Riwayat Data
-![Hasil Perhitungan](screenshot_KaisrMini/belanja_kalkulator.jpg)
+![Belanja Kalkulator](./screenshot_KaisrMini/belanja_kalkulator.jpg)
 
 ### 4. Tampilan Perhitungan dan Riwayat Data
-![Hasil Perhitungan](screenshot_KaisrMini/hasil.jpg)
+![Hasil](./screenshot_KaisrMini/hasil.jpg)
