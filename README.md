@@ -50,3 +50,14 @@ TugasJavaScript/
 
 ### 4. Tampilan Perhitungan dan Riwayat Data
 ![Hasil](./screenshot_KaisrMini/hasil.png)
+
+## Penjelasan Teknis Singkat
+
+### 1. Validasi Input
+JavaScript digunakan untuk memeriksa data yang dimasukkan pengguna sebelum data diproses. Jika terdapat input yang kosong atau tidak sesuai, sistem akan menampilkan pesan kesalahan. Dengan adanya validasi ini, data yang masuk menjadi lebih sesuai dan mengurangi kesalahan saat penggunaan aplikasi.
+
+### 2. Kalkulator Keuangan
+Kalkulator keuangan digunakan untuk menghitung total pemasukan, total pengeluaran, dan saldo. Sistem mengambil nilai nominal dari data transaksi, kemudian melakukan perhitungan sesuai dengan jenis transaksi. Saldo diperoleh dari total pemasukan dikurangi total pengeluaran.
+
+### 3. Penyimpanan Data dengan localStorage
+Data transaksi disimpan menggunakan `localStorage` pada browser. Sebelum disimpan, data diubah menjadi format JSON menggunakan `JSON.stringify()`. Ketika data akan digunakan kembali, JSON diubah menjadi data JavaScript menggunakan `JSON.parse()`. Dengan cara ini, data transaksi tetap tersimpan meskipun halaman browser dimuat ulang.
