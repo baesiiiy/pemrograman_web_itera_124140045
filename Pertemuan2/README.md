@@ -27,31 +27,31 @@ Dashboard Jadwal Kuliah adalah website sederhana untuk menampilkan jadwal perkul
 ## Dokumentasi Screenshot
 
 ### 1. Tampilan Dashboard Jadwal Kuliah
-![Dashboard Jadwal Kuliah](./screenshot_jadwal/1_JadwalUtama.png)
+![Dashboard Jadwal Kuliah](./screenshoot_jadwal/1_JadwalUtama.png)
 
 ### 2. Tampilan Daftar Jadwal Kuliah
-![Daftar Jadwal Kuliah](./screenshot_jadwal/2_JadwalUtama2.png)
+![Daftar Jadwal Kuliah](./screenshoot_jadwal/2_JadwalUtama2.png)
 
 ### 3. Tampilan Daftar Jadwal Kuliah
-![Daftar Jadwal Kuliah](./screenshot_jadwal/3_JadwalUtama3.png)
+![Daftar Jadwal Kuliah](./screenshoot_jadwal/3_JadwalUtama3.png)
 
 ### 4. Tampilan Form Tambah Jadwal
-![Form Jadwal Kuliah](./screenshot_jadwal/4_TambahJadwal.png)
+![Form Jadwal Kuliah](./screenshoot_jadwal/4_TambahJdwal.png)
 
 ### 5. Tampilan Form Tambah Jadwal
-![Form Jadwal Kuliah](./screenshot_jadwal/5_HasilTambah.png)
+![Form Jadwal Kuliah](./screenshoot_jadwal/5_HasilTambah.png)
 
 ### 6. Tampilan Filter Jadwal
-![Filter Jadwal Kuliah](./screenshot_jadwal/6_FilterHari.png)
+![Filter Jadwal Kuliah](./screenshoot_jadwal/6_FilterHari.png)
 
 ### 7. Tampilan Edit Jadwal
-![Filter Jadwal Kuliah](./screenshot_jadwal/7_EditJadwal.png)
+![Filter Jadwal Kuliah](./screenshoot_jadwal/7_EditJadwal.png)
 
 ### 8. Tampilan Hapus Jadwal
-![Filter Jadwal Kuliah](./screenshot_jadwal/8_HapusJadwal.png)
+![Filter Jadwal Kuliah](./screenshoot_jadwal/8_HapusJadwal.png)
 
 ### 9. Tampilan Hapus Jadwal
-![Filter Jadwal Kuliah](./screenshot_jadwal/9_HasilHapus.png)
+![Filter Jadwal Kuliah](./screenshoot_jadwal/9_HasilHapus.png)
 
 ## Penjelasan Teknis Singkat
 
