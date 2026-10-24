@@ -57,25 +57,25 @@ src/
 Aplikasi ini dibuat sebagai latihan praktikum React untuk memahami penggunaan komponen, props, React Router, Context API, custom hooks, serta penyimpanan data menggunakan Local Storage.
 
 ### 1. Tampilan Beranda
-![Beranda](./screenshot/1_Beranda.png)
+![Beranda](./screenshots/1_Bernada.png)
 
 ### 2. Tampilan Statistik
-![Statistik](./screenshot/2_Statistik.png)
+![Statistik](./screenshots/2_Statistik.png)
 
 ### 3. Tampilan Daftar Buku
-![Daftar Buku](./screenshot/3_Daftar_Buku.png)
+![Daftar Buku](./screenshots/3_Daftar_Buku.png)
 
 ### 4. Tampilan Tambah Buku
-![Tambah Buku](./screenshot/4_Tambah_Buku.png)
+![Tambah Buku](./screenshots/4_Tambah_Buku.png)
 
 ### 5. Tampilan Hapus Buku
-![Hapus Buku](./screenshot/5_Hapus_Buku.png)
+![Hapus Buku](./screenshots/5_Hapus_Buku.png)
 
 ### 6. Tampilan Hasil Hapus
-![Hasil Hapus](./screenshot/6_Hasil_Hapus.png)
+![Hasil Hapus](./screenshots/6_Hasil_Hapus.png)
 
 ### 4. Tampilan Hasil Akhir
-![Hasil Akhir](./screenshot/7_Hasil_Akhir.png)
+![Hasil Akhir](./screenshots/7_Hasil_Akhir.png)
 
 ## Identitas
 
