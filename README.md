@@ -39,11 +39,11 @@ TugasJavaScript/
 ├── script.js
 ├── README.md
 
-### 1. Tampilan Form Input Utama
-![Form Input Utama](./screenshot_KaisrMini/form_input.png)
+### 1. Tampilan Beranda
+![Beranda](./screenshot/1_Beranda.png)
 
-### 2. Tampilan Validasi Error
-![Validasi Error](./screenshot_KaisrMini/validasi_error.png)
+### 2. Tampilan Statistik
+![Statistik](./screenshot/2_Statistik.png)
 
 ### 3. Hasil Perhitungan dan Riwayat Data
 ![Belanja Kalkulator](./screenshot_KaisrMini/belanja_kalkulator.png)
